@@ -11,7 +11,6 @@
 
 <body>
     <p><?php
-    include 'login.php';
     session_start();
     echo 'Welcome, '.$_SESSION['username'].'!';
     ?></p>
